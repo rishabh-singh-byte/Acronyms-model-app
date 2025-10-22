@@ -37,7 +37,7 @@ app/
 ## Features
 
 ### Core Functionality
-- **Acronym Extraction**: Automatically identifies acronyms in user queries
+- **Acronym Extraction**: It identifies acronyms in user queries
 - **Contextual Selection**: Uses AI models to select relevant expansions based on query context
 - **Multi-Model Support**: Integrates Qwen base, Qwen LoRA, and OpenAI GPT models
 - **Flexible Input**: Supports both specific queries and random query generation
@@ -180,7 +180,7 @@ The `evaluation_v1/` directory contains scripts for:
 
 ### Common Issues
 1. **vLLM Server Not Running**: Ensure vLLM server is running on `localhost:8000`
-2. **Azure OpenAI Errors**: Check API credentials in `config.py`
+2. **Azure OpenAI Errors**: Check API credentials.
 3. **File Path Errors**: Update absolute paths in configuration files
 4. **Port Conflicts**: Change port in uvicorn command if 8090 is occupied
 
