@@ -1,0 +1,29 @@
+####### To run the inferencing on random query generation : ###########
+  First run uvicorn server on specific port :
+        uvicorn app.main:app --reload --port 8090    or   uvicorn app.main:app --reload 
+  
+  Run streamlit : 
+        streamlit run app/streamlit/app1.py
+
+
+
+####### To run only with query on a list of candidate acronyms : #############
+
+    Pass the run_inference.py file with the query[str] instead n [int]
+    and change the function name to get_all_model_responses.
+
+    Run uvicorn server on specific port :
+        uvicorn app.main:app --reload --port 8090    or   uvicorn app.main:app --reload 
+  
+    Run streamlit : 
+        streamlit run app/streamlit/app.py
+
+
+
+######## To run streamlit directly without running the uvicorn server ###########
+
+    Run the streamlit app3.py directly it will be alone sufficient 
+    Run streamlit : 
+        streamlit run app/streamlit/app3.py
+
+    
